@@ -41,5 +41,30 @@ header {
   font-family:system-ui;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
 
+.main__inner {
+  padding: 15px 20px 28px;
+  background-color: #D9D9D9;
+}
+
+.main__container {
+  width: 904px;
+  height: 393px;
+
+  display: flex;
+  column-gap: 119px;
+  row-gap: 21px;
+  flex-wrap: wrap;
+  /* background-color: #be4b4b; */
+}
+
+.card {
+  width: 222px;
+  height: 186px;
+  background-color: #C2FEC4;
+}
 
