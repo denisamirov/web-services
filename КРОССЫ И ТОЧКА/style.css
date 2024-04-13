@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     display: flex;
 }
@@ -13,3 +18,23 @@
 .header__link {
 
 }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 371px;
+    max-height: 370px;
+}
+
+.card__inner {
+    max-width: 1161px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card__container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
