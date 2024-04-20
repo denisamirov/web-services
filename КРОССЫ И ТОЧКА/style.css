@@ -37,17 +37,27 @@
     flex-direction: column;
     max-width: 371px;
     max-height: 370px;
+
 }
 
 .card__inner {
     max-width: 1161px;
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
 }
 
 .card__container {
     display: flex;
-    justify-content: center;
     width: 100%;
+    background-color: #F1F1F1;
+    justify-content: center;
+    row-gap: 50px;
 }
 
+.card__descpirtion {
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
