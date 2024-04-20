@@ -1,4 +1,15 @@
+@font-face {
+    font-family: "AnonymousPro";
+    src: url("./public/fonts/AnonymousPro/AnonymousPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: "AnonymousProBold";
+    src: url("./public/fonts/AnonymousPro/AnonymousPro-Bold.ttf");
+}
+
 * {
+    font-family: "AnonymousPro";
     margin: 0;
     padding: 0;
 }
@@ -11,12 +22,14 @@
 
 }
 
-.header__saerch {
+.header__search {
 
 }
 
 .header__link {
-
+    list-style-type: none;
+    display: flex;
+    column-gap: 2px;
 }
 
 .card {
