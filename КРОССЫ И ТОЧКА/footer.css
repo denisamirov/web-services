@@ -1,0 +1,31 @@
+.footer__up {
+    display: flex;
+    justify-content: space-between;
+    margin: 30.18px 157px 15.58px 142.52px;
+    background-color: #121723;
+
+  }
+  
+  .footer__logo {
+    font-size: 20px;
+    line-height: 25px;
+    max-width: 180px;
+    color: #FFFFFF;
+  }
+  
+  .footer__link {
+    list-style-type: none;
+    display: flex;
+    column-gap: 20px;
+    color: #FFFFFF;
+  }
+  
+  
+  
+  .footer__title {
+    padding: 25px 0px 24px 0px;
+    font-size: 48px;
+    font-weight: 500;
+    width: 100%;
+    max-width: 1161px;
+  }
